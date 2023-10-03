@@ -1,0 +1,113 @@
+html,
+body,
+:root {
+  box-sizing: border-box;
+  margin: 0;
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+body {
+  background: #e7e5e4;
+  font-family: "Montserrat", sans-serif;
+}
+
+main {
+  margin-inline: 20rem;
+  border: 1px solid #525252;
+  margin-block: 4rem;
+  border-radius: 1rem;
+}
+main:hover {
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.section-1 {
+  display: flex;
+  margin-inline: 1rem;
+  margin-block: 1rem;
+}
+.profile {
+  border-radius: 400px;
+  height: 90px;
+  width: 90px;
+}
+.small-text{
+  font-size: small;
+}
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2rem;
+}
+.name {
+  font-size: xx-large;
+  font-weight: bolder;
+}
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.sec1-icons {
+  height: 24px;
+  width: 24px;
+  padding: 8px;
+  border-radius: 4px;
+}
+.sec1-icons:hover {
+  background: #d1d1d1;
+}
+
+.tabs {
+  display: flex;
+  margin-right: 2rem;
+  margin-left: 4rem;
+  column-gap: 4rem;
+  align-items: center;
+}
+.headings {
+  font-size: bold;  
+  font-weight: 600;
+  color: #404040;
+}
+.information {
+  font-size: 14px;
+}
+.tabs-experience{
+    display: flex;
+    margin-right: 2rem;
+    margin-left: 4rem;
+    column-gap: 3rem;
+    align-items: center;
+}
+.tabs-skills {
+  display: flex;
+  margin-right: 2rem;
+  margin-left: 4rem;
+  column-gap: 7rem;
+  align-items: center;
+}
+.tabs-projects{
+    display: flex;
+  margin-right: 2rem;
+  margin-left: 4rem;
+  column-gap: 5rem;
+  align-items: center;
+}
+.tabs-hobbies{
+    display: flex;
+    margin-right: 2rem;
+    margin-left: 4rem;
+    column-gap: 5rem;
+    align-items: center;
+}
